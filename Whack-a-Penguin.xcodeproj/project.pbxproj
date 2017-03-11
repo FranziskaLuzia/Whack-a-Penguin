@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A5EE581E7462290087AC5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5EE571E7462290087AC5E /* AppDelegate.swift */; };
+		67A5EE5A1E7462290087AC5E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67A5EE591E7462290087AC5E /* GameScene.sks */; };
+		67A5EE5C1E7462290087AC5E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67A5EE5B1E7462290087AC5E /* Actions.sks */; };
+		67A5EE5E1E7462290087AC5E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5EE5D1E7462290087AC5E /* GameScene.swift */; };
+		67A5EE601E7462290087AC5E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5EE5F1E7462290087AC5E /* GameViewController.swift */; };
+		67A5EE631E7462290087AC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A5EE611E7462290087AC5E /* Main.storyboard */; };
+		67A5EE651E7462290087AC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A5EE641E7462290087AC5E /* Assets.xcassets */; };
+		67A5EE681E7462290087AC5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A5EE661E7462290087AC5E /* LaunchScreen.storyboard */; };
+		67A5EE731E7462290087AC5E /* Whack_a_PenguinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5EE721E7462290087AC5E /* Whack_a_PenguinTests.swift */; };
+		67A5EE7E1E7462290087AC5E /* Whack_a_PenguinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5EE7D1E7462290087AC5E /* Whack_a_PenguinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67A5EE6F1E7462290087AC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A5EE4C1E7462280087AC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A5EE531E7462280087AC5E;
+			remoteInfo = "Whack-a-Penguin";
+		};
+		67A5EE7A1E7462290087AC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A5EE4C1E7462280087AC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A5EE531E7462280087AC5E;
+			remoteInfo = "Whack-a-Penguin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67A5EE541E7462290087AC5E /* Whack-a-Penguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack-a-Penguin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A5EE571E7462290087AC5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67A5EE591E7462290087AC5E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		67A5EE5B1E7462290087AC5E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		67A5EE5D1E7462290087AC5E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		67A5EE5F1E7462290087AC5E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		67A5EE621E7462290087AC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67A5EE641E7462290087AC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A5EE671E7462290087AC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67A5EE691E7462290087AC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A5EE6E1E7462290087AC5E /* Whack-a-PenguinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack-a-PenguinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A5EE721E7462290087AC5E /* Whack_a_PenguinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_PenguinTests.swift; sourceTree = "<group>"; };
+		67A5EE741E7462290087AC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A5EE791E7462290087AC5E /* Whack-a-PenguinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack-a-PenguinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A5EE7D1E7462290087AC5E /* Whack_a_PenguinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_PenguinUITests.swift; sourceTree = "<group>"; };
+		67A5EE7F1E7462290087AC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A5EE511E7462280087AC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A5EE6B1E7462290087AC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A5EE761E7462290087AC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A5EE4B1E7462280087AC5E = {
+			isa = PBXGroup;
+			children = (
+				67A5EE561E7462290087AC5E /* Whack-a-Penguin */,
+				67A5EE711E7462290087AC5E /* Whack-a-PenguinTests */,
+				67A5EE7C1E7462290087AC5E /* Whack-a-PenguinUITests */,
+				67A5EE551E7462290087AC5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67A5EE551E7462290087AC5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A5EE541E7462290087AC5E /* Whack-a-Penguin.app */,
+				67A5EE6E1E7462290087AC5E /* Whack-a-PenguinTests.xctest */,
+				67A5EE791E7462290087AC5E /* Whack-a-PenguinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A5EE561E7462290087AC5E /* Whack-a-Penguin */ = {
+			isa = PBXGroup;
+			children = (
+				67A5EE571E7462290087AC5E /* AppDelegate.swift */,
+				67A5EE591E7462290087AC5E /* GameScene.sks */,
+				67A5EE5B1E7462290087AC5E /* Actions.sks */,
+				67A5EE5D1E7462290087AC5E /* GameScene.swift */,
+				67A5EE5F1E7462290087AC5E /* GameViewController.swift */,
+				67A5EE611E7462290087AC5E /* Main.storyboard */,
+				67A5EE641E7462290087AC5E /* Assets.xcassets */,
+				67A5EE661E7462290087AC5E /* LaunchScreen.storyboard */,
+				67A5EE691E7462290087AC5E /* Info.plist */,
+			);
+			path = "Whack-a-Penguin";
+			sourceTree = "<group>";
+		};
+		67A5EE711E7462290087AC5E /* Whack-a-PenguinTests */ = {
+			isa = PBXGroup;
+			children = (
+				67A5EE721E7462290087AC5E /* Whack_a_PenguinTests.swift */,
+				67A5EE741E7462290087AC5E /* Info.plist */,
+			);
+			path = "Whack-a-PenguinTests";
+			sourceTree = "<group>";
+		};
+		67A5EE7C1E7462290087AC5E /* Whack-a-PenguinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67A5EE7D1E7462290087AC5E /* Whack_a_PenguinUITests.swift */,
+				67A5EE7F1E7462290087AC5E /* Info.plist */,
+			);
+			path = "Whack-a-PenguinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A5EE531E7462280087AC5E /* Whack-a-Penguin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A5EE821E7462290087AC5E /* Build configuration list for PBXNativeTarget "Whack-a-Penguin" */;
+			buildPhases = (
+				67A5EE501E7462280087AC5E /* Sources */,
+				67A5EE511E7462280087AC5E /* Frameworks */,
+				67A5EE521E7462280087AC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whack-a-Penguin";
+			productName = "Whack-a-Penguin";
+			productReference = 67A5EE541E7462290087AC5E /* Whack-a-Penguin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67A5EE6D1E7462290087AC5E /* Whack-a-PenguinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A5EE851E7462290087AC5E /* Build configuration list for PBXNativeTarget "Whack-a-PenguinTests" */;
+			buildPhases = (
+				67A5EE6A1E7462290087AC5E /* Sources */,
+				67A5EE6B1E7462290087AC5E /* Frameworks */,
+				67A5EE6C1E7462290087AC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A5EE701E7462290087AC5E /* PBXTargetDependency */,
+			);
+			name = "Whack-a-PenguinTests";
+			productName = "Whack-a-PenguinTests";
+			productReference = 67A5EE6E1E7462290087AC5E /* Whack-a-PenguinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67A5EE781E7462290087AC5E /* Whack-a-PenguinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A5EE881E7462290087AC5E /* Build configuration list for PBXNativeTarget "Whack-a-PenguinUITests" */;
+			buildPhases = (
+				67A5EE751E7462290087AC5E /* Sources */,
+				67A5EE761E7462290087AC5E /* Frameworks */,
+				67A5EE771E7462290087AC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A5EE7B1E7462290087AC5E /* PBXTargetDependency */,
+			);
+			name = "Whack-a-PenguinUITests";
+			productName = "Whack-a-PenguinUITests";
+			productReference = 67A5EE791E7462290087AC5E /* Whack-a-PenguinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A5EE4C1E7462280087AC5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Franziska Kammerl";
+				TargetAttributes = {
+					67A5EE531E7462280087AC5E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					67A5EE6D1E7462290087AC5E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67A5EE531E7462280087AC5E;
+					};
+					67A5EE781E7462290087AC5E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67A5EE531E7462280087AC5E;
+					};
+				};
+			};
+			buildConfigurationList = 67A5EE4F1E7462280087AC5E /* Build configuration list for PBXProject "Whack-a-Penguin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A5EE4B1E7462280087AC5E;
+			productRefGroup = 67A5EE551E7462290087AC5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A5EE531E7462280087AC5E /* Whack-a-Penguin */,
+				67A5EE6D1E7462290087AC5E /* Whack-a-PenguinTests */,
+				67A5EE781E7462290087AC5E /* Whack-a-PenguinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A5EE521E7462280087AC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A5EE631E7462290087AC5E /* Main.storyboard in Resources */,
+				67A5EE5A1E7462290087AC5E /* GameScene.sks in Resources */,
+				67A5EE651E7462290087AC5E /* Assets.xcassets in Resources */,
+				67A5EE681E7462290087AC5E /* LaunchScreen.storyboard in Resources */,
+				67A5EE5C1E7462290087AC5E /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A5EE6C1E7462290087AC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A5EE771E7462290087AC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A5EE501E7462280087AC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A5EE5E1E7462290087AC5E /* GameScene.swift in Sources */,
+				67A5EE601E7462290087AC5E /* GameViewController.swift in Sources */,
+				67A5EE581E7462290087AC5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A5EE6A1E7462290087AC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A5EE731E7462290087AC5E /* Whack_a_PenguinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A5EE751E7462290087AC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A5EE7E1E7462290087AC5E /* Whack_a_PenguinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67A5EE701E7462290087AC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A5EE531E7462280087AC5E /* Whack-a-Penguin */;
+			targetProxy = 67A5EE6F1E7462290087AC5E /* PBXContainerItemProxy */;
+		};
+		67A5EE7B1E7462290087AC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A5EE531E7462280087AC5E /* Whack-a-Penguin */;
+			targetProxy = 67A5EE7A1E7462290087AC5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67A5EE611E7462290087AC5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A5EE621E7462290087AC5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67A5EE661E7462290087AC5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A5EE671E7462290087AC5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67A5EE801E7462290087AC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		67A5EE811E7462290087AC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A5EE831E7462290087AC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whack-a-Penguin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FranziskaKammerl.Whack-a-Penguin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		67A5EE841E7462290087AC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whack-a-Penguin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FranziskaKammerl.Whack-a-Penguin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		67A5EE861E7462290087AC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Whack-a-PenguinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FranziskaKammerl.Whack-a-PenguinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whack-a-Penguin.app/Whack-a-Penguin";
+			};
+			name = Debug;
+		};
+		67A5EE871E7462290087AC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Whack-a-PenguinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FranziskaKammerl.Whack-a-PenguinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whack-a-Penguin.app/Whack-a-Penguin";
+			};
+			name = Release;
+		};
+		67A5EE891E7462290087AC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Whack-a-PenguinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FranziskaKammerl.Whack-a-PenguinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Whack-a-Penguin";
+			};
+			name = Debug;
+		};
+		67A5EE8A1E7462290087AC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Whack-a-PenguinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FranziskaKammerl.Whack-a-PenguinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Whack-a-Penguin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A5EE4F1E7462280087AC5E /* Build configuration list for PBXProject "Whack-a-Penguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A5EE801E7462290087AC5E /* Debug */,
+				67A5EE811E7462290087AC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A5EE821E7462290087AC5E /* Build configuration list for PBXNativeTarget "Whack-a-Penguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A5EE831E7462290087AC5E /* Debug */,
+				67A5EE841E7462290087AC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67A5EE851E7462290087AC5E /* Build configuration list for PBXNativeTarget "Whack-a-PenguinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A5EE861E7462290087AC5E /* Debug */,
+				67A5EE871E7462290087AC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67A5EE881E7462290087AC5E /* Build configuration list for PBXNativeTarget "Whack-a-PenguinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A5EE891E7462290087AC5E /* Debug */,
+				67A5EE8A1E7462290087AC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67A5EE4C1E7462280087AC5E /* Project object */;
+}
